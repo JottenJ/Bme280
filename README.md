@@ -26,16 +26,4 @@ bus = smbus2.SMBus(2)
 # Initiera BME280
 calibration_params = bme280.load_calibration_params(bus, address)
 
-# Enkel loop som uppdaterar var 0,5 s
-try:
-    while True:
-        data = bme280.sample(bus, address, calibration_params)
-        print(f"Temperatur: {data.temperature:.1f} °C")
-        print(f"Luftfuktighet: {data.humidity:.1f} %")
-        print(f"Lufttryck: {data.pressure:.1f} hPa")
-        print("-------------------------------")
-        time.sleep(0.5)
-except KeyboardInterrupt:
-    print("Avslutar...")
-finally:
-    bus.close()
+
