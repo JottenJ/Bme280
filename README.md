@@ -49,3 +49,6 @@ except KeyboardInterrupt:  # Om användaren trycker Ctrl+C
     print("Avslutar...")   # Skriver ut avslutningsmeddelande
 finally:
     bus.close()
+
+
+<img width="1207" height="1296" alt="image" src="https://github.com/user-attachments/assets/9326a83c-2ecb-4cb6-b5e4-7edbbde552de" />
