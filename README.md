@@ -17,8 +17,8 @@ import smbus2
 import bme280
 import time
 
-# Sensoradress (från i2cdetect)
-address = 0x76
+Sensoradress (från i2cdetect)
+address borde vara = 0x76
 
 # Initiera I2C-buss 2 (byt till 1 om det är /dev/i2c-1)
 bus = smbus2.SMBus(2)
