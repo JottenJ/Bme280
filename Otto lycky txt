@@ -1,0 +1,7 @@
+print("enter a lucky number")
+
+def fav ():
+    num = int(input("what is the lucky number?: "))
+    print(" the lucky number was: " + str(1 + 4))
+
+fav()
