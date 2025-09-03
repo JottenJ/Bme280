@@ -1,7 +1,10 @@
-print("enter a lucky number")
+print("enter a number")
 
-def fav ():
-    num = int(input("what is the lucky number?: "))
-    print(" the lucky number was: " + str(1 + 4))
+def fav():
+        num = int(input("what is the lucky number: "))
+        if num == 5:
+            print("Grattis du gissade rätt")
+        else:
+            print("du gissade nog fel denär gången...")
 
 fav()
